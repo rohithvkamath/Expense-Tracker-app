@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/recordFragment">
+
+    <fragment
+        android:id="@+id/recordFragment"
+        android:name="com.demo.expensetracker.fragments.RecordFragment"
+        android:label="@string/title_record"
+        tools:layout="@layout/fragment_record">
+        <action
+            android:id="@+id/action_recordFragment_to_monthFragment"
+            app:destination="@id/monthFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/monthFragment"
+        android:name="com.demo.expensetracker.fragments.MonthFragment"
+        android:label="@string/title_month"
+        tools:layout="@layout/fragment_month">
+        <action
+            android:id="@+id/action_monthFragment_to_recordFragment"
+            app:destination="@id/recordFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/wishlistFragment"
+        android:name="com.demo.expensetracker.fragments.WishlistFragment"
+        android:label="@string/title_wishlist"
+        tools:layout="@layout/fragment_wishlist">
+        <action
+            android:id="@+id/action_wishlistFragment_to_updateWishlistFragment"
+            app:destination="@id/updateWishlistFragment"
+            app:popUpTo="@+id/wishlistFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/updateWishlistFragment"
+        android:name="com.demo.expensetracker.fragments.UpdateWishlistFragment"
+        android:label="@string/title_update_wishlist"
+        tools:layout="@layout/fragment_wishlist">
+        <action
+            android:id="@+id/action_updateWishlistFragment_to_wishlistFragment"
+            app:destination="@id/wishlistFragment"
+            app:popUpTo="@+id/updateWishlistFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="com.demo.expensetracker.fragments.StatisticsFragment"
+        android:label="@string/title_statistics"
+        tools:layout="@layout/fragment_statistics" />
+</navigation>

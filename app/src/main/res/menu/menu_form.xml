@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_return"
+        android:icon="@drawable/ic_baseline_chevron_left_24"
+        android:title="@string/go_back"
+        android:orderInCategory="0"
+        android:tooltipText="@string/go_back"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="@string/delete"
+        android:tooltipText="@string/delete"
+        android:orderInCategory="2"
+        app:showAsAction="always" />
+</menu>

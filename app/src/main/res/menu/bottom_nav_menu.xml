@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/recordFragment"
+        android:icon="@drawable/ic_baseline_add_circle_24"
+        android:title="@string/title_record" />
+
+    <item
+        android:id="@+id/monthFragment"
+        android:icon="@drawable/ic_baseline_view_list_24"
+        android:title="@string/title_month" />
+
+    <item
+        android:id="@+id/wishlistFragment"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        android:title="@string/title_wishlist" />
+
+    <item
+        android:id="@+id/statisticsFragment"
+        android:icon="@drawable/ic_baseline_bar_chart_24"
+        android:title="@string/title_statistics" />
+
+</menu>
