@@ -14,13 +14,13 @@ Managing personal finances and tracking expenses efficiently is crucial for main
 
 ## Below are some screenshots of the Expense-Tracker-App
 </br>
-<p align="center"><img src="screenshots/1.png" width="285px" height="auto"></p><br>
-<p align="center"><img src="screenshots/2.png" width="285px" height="auto"></p><br>
-<p align="center"><img src="screenshots/3.png" width="285px" height="auto"></p><br>
-<p align="center"><img src="screenshots/4.png" width="285px" height="auto"></p><br>
-<p align="center"><img src="screenshots/5.png" width="285px" height="auto"></p><br>
-<p align="center"><img src="screenshots/6.png" width="285px" height="auto"></p><br>
-<p align="center"><img src="screenshots/7.png" width="285px" height="auto"></p><br>
-<p align="center"><img src="screenshots/8.png" width="285px" height="auto"></p><br>
-<p align="center"><img src="screenshots/9.png" width="285px" height="auto"></p><br>
-<p align="center"><img src="screenshots/10.png" width="285px" height="auto"></p><br>
+<p align="center"><img src="screenshots/1.jpg" width="285px" height="auto"></p><br>
+<p align="center"><img src="screenshots/2.jpg" width="285px" height="auto"></p><br>
+<p align="center"><img src="screenshots/3.jpg" width="285px" height="auto"></p><br>
+<p align="center"><img src="screenshots/4.jpg" width="285px" height="auto"></p><br>
+<p align="center"><img src="screenshots/5.jpg" width="285px" height="auto"></p><br>
+<p align="center"><img src="screenshots/6.jpg" width="285px" height="auto"></p><br>
+<p align="center"><img src="screenshots/7.jpg" width="285px" height="auto"></p><br>
+<p align="center"><img src="screenshots/8.jpg" width="285px" height="auto"></p><br>
+<!-- <p align="center"><img src="screenshots/9.jpg" width="285px" height="auto"></p><br>
+<p align="center"><img src="screenshots/10.jpg" width="285px" height="auto"></p><br> -->
