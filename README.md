@@ -1,5 +1,5 @@
 # Expense-Tracker-app
-
+## Introduction
 Below are some screenshots of the Expense-Tracker-App</br>
 </br>
 <p align="center"><img src="screenshots/1.png" width="285px" height="auto"></p><br>
